@@ -1,0 +1,141 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}*/
+
+#searchResultArea {
+    visibility: hidden;
+    margin-bottom: 25px;
+}
+
+#pager {
+    padding-left: 0px;
+    left: -14px;
+}
+
+    #pager .pagination {
+        margin: 0;
+    }
+
+#totalHitsInfo {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.article-body {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.footer {
+    border-top: 1px solid #787878;
+    border-bottom: 1px solid #787878;
+    background-color: #999999;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+}
+
+    .footer h4 {
+        margin: 0px;
+        display: inline-block;
+        float: right;
+        margin-right: 50px;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 4px;
+    }
+
+.article-heading {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: justify;
+    max-width: 800px;
+    overflow: hidden;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.article-score {
+    float: right;
+}
+
+.article-readmore {
+    text-decoration: underline;
+    float: right;
+}
+
+.panel {
+    padding: 0px !important;
+}
+
+.suggestion {
+    padding-left : 10px;
+    padding-right : 10px;
+    width : 100%;
+    height : 20px; 
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color : #999999;
+    color : white;
+}
+
+#badQueryError {
+    margin-top :5px;
+    margin-bottom : 5px;
+}
+
+#suggestions {
+    min-height: 20px;
+    max-height: 250px;
+    visibility:hidden;
+    position: absolute;
+    left: 113px;
+    top: 105px;
+    background-color: white;
+    width: 1065px;
+    border: 1px solid #cccccc;
+    overflow : hidden;
+}
