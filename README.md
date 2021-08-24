@@ -8,3 +8,5 @@ Apache Lucene used for Indexing
 
 Search Server - Java
 Search Client - .Net
+
+![alt text](https://github.com/ShtiliyanUzunov/uni_project_information_retrieval/blob/master/images/overview.png)
